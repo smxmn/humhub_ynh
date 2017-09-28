@@ -1,4 +1,4 @@
-REPLACE INTO setting (`name`, `value`, `module_id`) VALUES
+create table setting (`name`, `value`, `module_id`) VALUES
 ('auth.ldap.enabled', '1', 'user'), 
 ('auth.ldap.hostname', 'localhost', 'user'),
 ('auth.ldap.port', '389', 'user'),
